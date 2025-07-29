@@ -4,10 +4,10 @@
   <head>
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>React Exercises </title>
+    <title>Chatbot</title>
   </head>
   <body>
-    <div class="js-container"></div>
+    <div class="js-container"></div> 
     <script src="react-basics.js"></script>
     <script src="https://unpkg.com/supersimpledev@8.6.4/external-library.js"></script>
     
@@ -17,13 +17,22 @@
 
     <script src="https://unpkg.com/supersimpledev/babel.js"></script>
     <script type="text/babel">
+                  function ChatInput(){
+                    return(
+                      <div>
 
+                         <input />
+                        <button> send</button>
+                      </div>
+                    );
+                  }
 
-        const div = (
+        const div = ( 
             <div>
- 
-                <button> Good job! </button>;
-                <p>My name is Maina Kimani</p>;
+
+               
+                {ChatInput()}
+                <ChatInput></ChatInput>asdfffghhggggqwerrrrrtyuiopl1234566656677778890
 
         </div>
         );
